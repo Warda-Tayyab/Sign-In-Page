@@ -6,7 +6,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: white;
+  background-color: slategray;
 }
 
 #box {
@@ -16,6 +16,7 @@ body {
   padding: 20px;
   border-radius: 30px;
   background-color: white;
+  outline: 8px solid grey;
 }
 
 header {
@@ -51,8 +52,8 @@ h1 {
 }
 
 .label {
+  text-align: center;
   margin-top: 10px;
-  margin: 70px; 
 }
 
 .input {
@@ -80,11 +81,10 @@ h3 {
   width: 150px;
   display: block;
   margin: 20px auto;
-  background-color: white;
+  background-color:rgb(170, 48, 48);
+  color:white;
   cursor: pointer;
   border-radius: 30px;
-  color: white;
-  background-color: rgb(170, 48, 48);
 }
 
 p {
@@ -133,7 +133,6 @@ span {
 
   .label {
       margin-top: 8px;
-      margin-left: 10px; 
   }
 
   .input input {
@@ -184,7 +183,6 @@ span {
 
   .label {
       margin-top: 6px;
-      margin: 10px; 
   }
 
   .input input {
@@ -235,7 +233,6 @@ span {
 
   .label {
       margin-top: 5px;
-      margin-left: 10px; 
   }
 
   .input input {
